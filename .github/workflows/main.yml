@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2 # Versão mais atualizada do código
+      - uses: actions/checkout@v2 # Versão mais atualizada do código 
       
       # Instalando o node, para ser possível a execução do script
       - name: Setup Node.js environment 
